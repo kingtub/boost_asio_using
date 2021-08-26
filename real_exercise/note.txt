@@ -1,0 +1,4 @@
+1. 有时用std::error_code， 而有时用system::error_code？
+目前客户端必须用system::error_code，否则出错。服务端可以用std::error_code。
+
+2. boost版本：1.760
